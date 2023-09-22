@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"api-with-interfaces/storage"
-	"api-with-interfaces/utils"
+	"test-api/storage"
+	"test-api/utils"
 )
 
 type ReadHandler struct {

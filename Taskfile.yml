@@ -18,5 +18,3 @@ tasks:
       - mocks/{{.DESTINATION_FILE}}
     cmds:
       - mockgen -source={{.SOURCE_FILE}} -destination=mocks/{{.SOURCE_FILE}}
-        
-        //https://github.com/geoffLondon

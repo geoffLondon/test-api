@@ -6,8 +6,8 @@ import (
 	"github.com/gorilla/mux"
 	"net/http"
 
-	"api-with-interfaces/storage"
-	"api-with-interfaces/utils"
+	"test-api/storage"
+	"test-api/utils"
 )
 
 type ReadByIDHandler struct {

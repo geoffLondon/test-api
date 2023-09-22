@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"api-with-interfaces/model"
+	"test-api/model"
 )
 
 type Store interface {

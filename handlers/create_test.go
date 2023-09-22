@@ -12,11 +12,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	mock_store "api-with-interfaces/mocks/storage"
-	mock_utils "api-with-interfaces/mocks/utils"
+	mock_store "test-api/mocks/storage"
+	mock_utils "test-api/mocks/utils"
 
-	"api-with-interfaces/fixtures"
-	"api-with-interfaces/handlers"
+	"test-api/fixtures"
+	"test-api/handlers"
 )
 
 var _ = Describe("TestCreateHandler unit fixtures", func() {

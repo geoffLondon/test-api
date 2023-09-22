@@ -3,7 +3,7 @@ package fixtures
 import (
 	"net/url"
 
-	"api-with-interfaces/model"
+	"test-api/model"
 )
 
 func ValidFormValues() url.Values {

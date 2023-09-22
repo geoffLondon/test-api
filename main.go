@@ -1,13 +1,13 @@
 package main
 
 import (
-	"api-with-interfaces/handlers"
 	"log"
 	"net/http"
 
-	"api-with-interfaces/router"
-	"api-with-interfaces/storage"
-	"api-with-interfaces/utils"
+	"test-api/handlers"
+	"test-api/router"
+	"test-api/storage"
+	"test-api/utils"
 )
 
 func main() {

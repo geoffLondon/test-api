@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"api-with-interfaces/model"
-	"api-with-interfaces/storage"
-	"api-with-interfaces/utils"
+	"test-api/model"
+	"test-api/storage"
+	"test-api/utils"
 )
 
 type CreateHandler struct {

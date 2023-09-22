@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"api-with-interfaces/storage"
 	"fmt"
 	"github.com/gorilla/mux"
 	"net/http"
+
+	"test-api/storage"
 )
 
 type DeleteByIdHandler struct {

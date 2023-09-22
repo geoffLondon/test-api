@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"api-with-interfaces/storage"
 	"fmt"
 	"net/http"
+
+	"test-api/storage"
 )
 
 type DeleteHandler struct {

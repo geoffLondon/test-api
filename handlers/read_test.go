@@ -10,10 +10,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	mock_store "api-with-interfaces/mocks/storage"
+	mock_store "test-api/mocks/storage"
 
-	"api-with-interfaces/fixtures"
-	"api-with-interfaces/handlers"
+	"test-api/fixtures"
+	"test-api/handlers"
 )
 
 var _ = Describe("TestReadAllHandler unit fixtures", func() {

@@ -1,8 +1,9 @@
 package router
 
 import (
-	"api-with-interfaces/handlers"
 	"github.com/gorilla/mux"
+
+	"test-api/handlers"
 )
 
 func MuxRouter(ch *handlers.CreateHandler, r *handlers.ReadHandler, rbid *handlers.ReadByIDHandler, da *handlers.DeleteHandler, dbid *handlers.DeleteByIdHandler) *mux.Router {
