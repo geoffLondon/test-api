@@ -1,0 +1,22 @@
+version: '3'
+
+tasks:
+  mocks:
+    desc: Generate all the mocks needed for the tests
+    sources:
+      - '**/*.go'
+    cmds:
+      - if [ -d mocks ]; then rm -rf mocks; fi
+      - task: mockgen:source
+        vars: { SOURCE_FILE: storage/json_store.go }
+      - task: mockgen:source
+        vars: { SOURCE_FILE: utils/uuid_generator.go }
+
+  mockgen:source:
+    desc: Generate a mock for an interface
+    generates:
+      - mocks/{{.DESTINATION_FILE}}
+    cmds:
+      - mockgen -source={{.SOURCE_FILE}} -destination=mocks/{{.SOURCE_FILE}}
+        
+        //https://github.com/geoffLondon

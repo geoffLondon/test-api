@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Opening an ISA with Cushon</title>
+</head>
+<body>
+<h3>Create Cushon ISA</h3>
+<form action="/customer/create" method="post">
+    <p>Your Name</p>
+    <label>
+        <input type="text" name="name" placeholder="Enter your name">
+    </label>
+    <br>
+
+    <p>Your Age</p>
+    <input type="text" name="age" placeholder="Enter your Age">
+    <br>
+
+    <p>Your Nationality</p>
+    <input type="text" name="nationality" placeholder="Enter your Nationality">
+    <br>
+
+    <p>Your Initial Investment</p>
+    <input type="number" name="investment" placeholder="Investment Amount">
+    <br>
+
+    <p>Choose Fund type</p>
+    <input type="checkbox" id="fund1" name="fund1" value="Equities">
+    <label for="fund1"> Equities</label>
+    <br>
+    <input type="checkbox" id="fund2" name="fund2" value="Hedge" disabled="disabled">
+    <label for="fund2"> Hedge</label><span style="color:red"> (currently unavailable)</span>
+    <br>
+    <input type="checkbox" id="fund3" name="fund3" value="Commodities" disabled="disabled">
+    <label for="fund3"> Commodities</label><span style="color:red"> (currently unavailable)</span>
+    <br>
+    <br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
